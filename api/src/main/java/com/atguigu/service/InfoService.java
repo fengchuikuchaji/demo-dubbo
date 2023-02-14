@@ -8,4 +8,5 @@ package com.atguigu.service;
  */
 public interface InfoService {
     void sayInfo();
+    String getInfoName();
 }
