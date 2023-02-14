@@ -23,6 +23,7 @@ public class HelloController {
     public String sayHello(@RequestParam("name") String name){
         System.out.println("hot fix热修复.......");
         System.out.println("hello master......");
+        System.out.println("hello hot fix......");
         return helloService.sayHello(name);
     }
 }
