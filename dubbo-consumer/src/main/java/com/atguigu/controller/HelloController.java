@@ -24,6 +24,7 @@ public class HelloController {
         System.out.println("hot fix热修复.......");
         System.out.println("hello master......");
         System.out.println("hello hot fix......");
+        System.out.println("hello leevi...");
         return helloService.sayHello(name);
     }
 }
